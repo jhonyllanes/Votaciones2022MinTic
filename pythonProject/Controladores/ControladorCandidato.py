@@ -2,10 +2,12 @@ from Repositorios.RepositorioCandidato import RepositorioCandidato
 from Repositorios.RepositorioPartido import RepositorioPartido
 from Modelos.Candidato import Candidato
 from Modelos.Partido import Partido
+
 class ControladorCandidato():
     def __init__(self):
         self.repositorioCandidato = RepositorioCandidato()
         self.repositorioPartido = RepositorioPartido()
+
     def index(self):
         return self.repositorioCandidato.findAll()
     def create(self,infoCandidato):
@@ -36,3 +38,4 @@ class ControladorCandidato():
         partidoActual = Partido(self.repositorioPartido.findById(id_partido))
         canditadoActual.partido = partidoActual
         return self.repositorioCandidato.save(canditadoActual)
+

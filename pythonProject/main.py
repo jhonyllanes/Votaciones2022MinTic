@@ -11,9 +11,14 @@ cors = CORS(app)
 from Controladores.ControladorCandidato import ControladorCandidato
 from Controladores.ControladorPartido import ControladorPartido
 from Controladores.ControladorMesas import ControladorMesas
+from Controladores.ControladorResultados import ControladorResultados
+
 miControladorPartido = ControladorPartido()
 miControladorCandidato = ControladorCandidato()
 miControladorMesa = ControladorMesas()
+miControladorResultados = ControladorResultados()
+
+
 
 
 @app.route("/",methods=['GET'])
@@ -21,6 +26,7 @@ def test():
     json = {}
     json["message"]="Server running ..."
     return jsonify(json)
+
 @app.route("/candidatos",methods=['GET'])
 def getCandidatos():
     json=miControladorCandidato.index()
@@ -102,6 +108,28 @@ def modificarMesas(id):
 def eliminarMesa(id):
     json=miControladorMesa.delete(id)
     return jsonify(json)
+
+####################################################################################################3
+
+@app.route("/resultados/mesas/<string:id>/",methods=['GET'])
+def getListadoResultadosporMesa(id):
+    json=miControladorResultados.show(id)
+    return jsonify(json)
+
+@app.route("/resultados/canditados/<string:id_candidato>/mesa/<string:id_mesa>",methods=['POST'])
+def CrearResultado(id_mesa,id_candidato):
+    data = request.get_json()
+    json=miControladorResultados.create(data,id_mesa,id_candidato)
+    return jsonify(json)
+
+@app.route("/resultados/<string:id_resultados>/candidatos/<string:id_candidatos>/mesa/<string:id_mesa>",methods=['PUT'])
+def modificarResultado(id_resultados,id_candidatos,id_mesa):
+    data = request.get_json()
+    json=miControladorResultados.update(id_resultados,data,id_candidatos,id_mesa)
+    return jsonify(json)
+
+
+
 
 def loadFileConfig():
         with open('config.json') as f:
