@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="74c4bd44-b7ef-4bd0-8d91-0619270d2ec9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/Controladores/ControladorCandidato.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/Controladores/ControladorCandidato.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/Controladores/ControladorResultados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/Controladores/ControladorResultados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/Repositorios/RepositorioResultados.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/Repositorios/RepositorioResultados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pythonProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pythonProject/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GxCvULmACSiQQX2ZpYbEIXj5Rd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74c4bd44-b7ef-4bd0-8d91-0619270d2ec9" name="Changes" comment="" />
+      <created>1667321078488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667321078488</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
