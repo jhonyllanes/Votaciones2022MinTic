@@ -5,6 +5,7 @@ from bson.objectid import ObjectId
 from typing import TypeVar, Generic, List, get_origin, get_args
 import json
 
+
 T = TypeVar('T')
 
 class InterfaceRepositorio(Generic[T]):
